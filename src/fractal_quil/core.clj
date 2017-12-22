@@ -72,11 +72,13 @@
 (def parameter-map-a
   {:depth depth :init [0 1] :a [0.5 0.5] :b [0 0] :c [0.5 -0.5] :d [0 0]})
 (def parameter-map-b
-  {:depth depth :init [0 1] :a [0 0] :b [0 0.2887] :c [0 0] :d [0.6667 0]})
+  {:depth depth :init [0 1] :a [0 0] :b [0.5 0.2887] :c [0 0] :d [0.6667 0]})
 (def parameter-map-c
-  {:depth depth :init [0 1] :a [0 0.707] :b [0 0] :c [0 0.5] :d [0 0]})
+  {:depth depth :init [0 1] :a [0 0.707] :b [0 0] :c [0.5 0] :d [0 0]})
 (def parameter-map-d
   {:depth depth :init [0 1] :a [0.4614 0.4614] :b [0 0] :c [0.622 -0.192] :d [0 0]})
+(def parameter-map-e
+  {:depth depth :init [0 1] :a [0.4614 0.4614] :b [0 0] :c [0.2896 -0.585] :d [0 0]})
 
 (defn change-parameter [^String choice]
   (condp = choice
@@ -84,6 +86,7 @@
     "b" (reset! parameter-map parameter-map-b)
     "c" (reset! parameter-map parameter-map-c)
     "d" (reset! parameter-map parameter-map-d)
+    "e" (reset! parameter-map parameter-map-e)
     (swap! parameter-map parameter-map-a)))
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; draw levy-fractal ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

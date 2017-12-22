@@ -24,8 +24,10 @@ A Quil sketch designed to ... well, that part is up to you.
  [[./image/b.png]]
  3. "c"
  [[./image/c.png]]
- 4. "b"
+ 4. "d"
  [[./image/d.png]]
+ 5. "e"
+ [[./image/e.png]]
 ## License
 
 Copyright © 2016 FIXME
