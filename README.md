@@ -19,13 +19,13 @@ A Quil sketch designed to ... well, that part is up to you.
 ```
  * you can change parameter {"a","b","c","d"}
  1. "a"
- [a](image/a.png)
+ ![a](image/a.png)
  2. "b"
- [b](image/b.png)
+ ![b](image/b.png)
  3. "c"
- [c](image/c.png)
+ ![c](image/c.png)
  4. "b"
- [d](image/d.png)
+ ![d](image/d.png)
 ## License
 
 Copyright © 2016 FIXME
