@@ -1,6 +1,6 @@
 # fractal-quil
 
-A Quil sketch designed to ... well, that part is up to you.
+A Quil sketch 
 
 ## Usage
 1. install leiningen (https://leiningen.org/)
