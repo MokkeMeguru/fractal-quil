@@ -19,7 +19,7 @@ A Quil sketch designed to ... well, that part is up to you.
 ```
  * you can change parameter {"a","b","c","d"}
  1. "a"
- [[./image/a.png]]
+ [./image/a.png]
  2. "b"
  [[./image/b.png]]
  3. "c"
