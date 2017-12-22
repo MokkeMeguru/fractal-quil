@@ -3,13 +3,17 @@
 A Quil sketch designed to ... well, that part is up to you.
 
 ## Usage
-
-LightTable - open `core.clj` and press `Ctrl+Shift+Enter` to evaluate the file.
-
-Emacs - run cider, open `core.clj` and press `C-c C-k` to evaluate the file.
-
-REPL - run `(require 'fractal-quil.core)`.
-
+1. install leiningen (https://leiningen.org/)
+2. in your shell 
+    ~$ mkdir Github $$ cd Github
+    ~$ git clone https://github.com/MokkeMeguru/fracral-quil
+    ~$ lein repl
+    fractal-quil.core=> (-main)
+    // or
+    fractal-quil.core=> (change-parameter "a")
+    fractal-quil.core=> (-main)
+    
+ * you can change parameter {"a","b","c","d"}
 ## License
 
 Copyright © 2016 FIXME
