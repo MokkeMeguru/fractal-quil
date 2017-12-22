@@ -1,6 +1,6 @@
 # fractal-quil
 
-A Quil sketch designed to ... well, that part is up to you.
+A Quil sketch 
 
 ## Usage
 1. install leiningen (https://leiningen.org/)
@@ -19,18 +19,24 @@ A Quil sketch designed to ... well, that part is up to you.
 ```
  * you can change parameter {"a","b","c","d"}
  1. "a"
- [[./image/a.png]]
+ <img src="image/a.png" width="160">
+
  2. "b"
- [[./image/b.png]]
+ <img src="image/b.png" width="160">
+
  3. "c"
- [[./image/c.png]]
+ <img src="image/c.png" width="160">
+ 
  4. "d"
- [[./image/d.png]]
+ <img src="image/d.png" width="160">
+ 
  5. "e"
- [[./image/e.png]]
+ <img src="image/e.png" width="160">
+ 
+
 ## License
 
-Copyright © 2016 FIXME
+Copyright © 2017
 
 Distributed under the Eclipse Public License either version 1.0 or (at
 your option) any later version.
